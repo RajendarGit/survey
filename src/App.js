@@ -6,7 +6,7 @@ import { Landing } from "./Pages/Landing";
 import { Survey } from "./Pages/Survey";
 
 function App() {
-  const [mode, setMode] = useState('dark')
+  const [mode, setMode] = useState('light');
 
   const theme = createTheme({
     palette: {
